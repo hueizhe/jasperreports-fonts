@@ -36,7 +36,8 @@
           <include>**/jasperreports_extension.properties</include>
           <include>**/fonts.xml</include>
           <include>**/*.ttf</include>
-            <include>**/*.TTF</include>
+          <include>**/*.TTF</include>
+          <include>**/*.ttc</include>
           <include>**/LICENSE</include>
         </includes>
       </resource>

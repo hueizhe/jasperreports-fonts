@@ -4,7 +4,7 @@
 
 
 
-        <fontFamily name="华文宋体">
+	<fontFamily name="华文宋体">
             <normal>net/sf/jasperreports/fonts/cn/STSONG.TTF</normal>
             <bold>net/sf/jasperreports/fonts/cn/STSONG.TTF</bold>
             <italic>net/sf/jasperreports/fonts/cn/STSONG.TTF</italic>
@@ -20,18 +20,37 @@
                     <locale>de_DE</locale>
                 </locales>
             -->
-        </fontFamily>
+	</fontFamily>
 
-	<fontFamily name="宋体">
-		<normal>net/sf/jasperreports/fonts/cn/STSONG.TTF</normal>
-		<bold>net/sf/jasperreports/fonts/cn/STSONG.TTF</bold>
-		<italic>net/sf/jasperreports/fonts/cn/STSONG.TTF</italic>
-		<boldItalic>net/sf/jasperreports/fonts/cn/STSONG.TTF</boldItalic>
+	<fontFamily name="华文楷体">
+		<normal>net/sf/jasperreports/fonts/cn/STKAITI.TTF</normal>
+		<bold>net/sf/jasperreports/fonts/cn/STKAITI.TTF</bold>
+		<italic>net/sf/jasperreports/fonts/cn/STKAITI.TTF</italic>
+		<boldItalic>net/sf/jasperreports/fonts/cn/STKAITI.TTF</boldItalic>
 		<pdfEncoding>Identity-H</pdfEncoding>
 		<pdfEmbedded>true</pdfEmbedded> <exportFonts>
-		<export key="net.sf.jasperreports.html">'宋体', Arial, Helvetica, sans-serif</export>
-		<export key="net.sf.jasperreports.xhtml">'宋体', Arial, Helvetica, sans-serif</export>
+		<export key="net.sf.jasperreports.html">'华文楷体', Arial, Helvetica, sans-serif</export>
+		<export key="net.sf.jasperreports.xhtml">'华文楷体', Arial, Helvetica, sans-serif</export>
 	</exportFonts>
+		<!--
+            <locales>
+                <locale>en_US</locale>
+                <locale>de_DE</locale>
+            </locales>
+        -->
+	</fontFamily>
+
+	<fontFamily name="宋体">
+		<normal>net/sf/jasperreports/fonts/cn/simsun.ttc</normal>
+		<bold>net/sf/jasperreports/fonts/cn/simsun.ttc</bold>
+		<italic>net/sf/jasperreports/fonts/cn/simsun.ttc</italic>
+		<boldItalic>net/sf/jasperreports/fonts/cn/simsun.ttc</boldItalic>
+		<pdfEncoding>Identity-H</pdfEncoding>
+		<pdfEmbedded>true</pdfEmbedded>
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'宋体', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'宋体', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
 		<!--
             <locales>
                 <locale>en_US</locale>
@@ -108,11 +127,26 @@
 		</exportFonts>
 	</fontFamily>
 
-    <fontFamily name="宋体">
+	<fontFamily name="华文宋体">
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'华文宋体', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'华文宋体', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+	</fontFamily>
+
+
+	<fontFamily name="宋体">
         <exportFonts>
             <export key="net.sf.jasperreports.html">'宋体', Arial, Helvetica, sans-serif</export>
             <export key="net.sf.jasperreports.xhtml">'宋体', Arial, Helvetica, sans-serif</export>
         </exportFonts>
     </fontFamily>
+
+	<fontFamily name="华文楷体">
+		<exportFonts>
+			<export key="net.sf.jasperreports.html">'华文楷体', Arial, Helvetica, sans-serif</export>
+			<export key="net.sf.jasperreports.xhtml">'华文楷体', Arial, Helvetica, sans-serif</export>
+		</exportFonts>
+	</fontFamily>
 
 </fontFamilies>
