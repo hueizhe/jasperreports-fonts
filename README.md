@@ -36,3 +36,5 @@ jasperreports-fonts
 </fontFamily>
 
 ~~~
+
+[Jaspersoft stdio downloadlink](https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.6.0/)
